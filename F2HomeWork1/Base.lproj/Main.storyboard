@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="&quot;CELL&quot;" id="PAc-D3-tZu">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CELL" id="PAc-D3-tZu">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PAc-D3-tZu" id="TYO-fu-caZ">
@@ -37,10 +37,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="lVW-tM-6QG"/>
+                    <connections>
+                        <outlet property="tableView" destination="moB-c1-tuv" id="cqT-Kn-UCM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1664" y="-504"/>
+            <point key="canvasLocation" x="1460" y="-516"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="Jx1-cJ-r61">
@@ -76,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bvX-tw-Bcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1240" y="272"/>
+            <point key="canvasLocation" x="2108" y="-516"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IYw-lv-RsR">
