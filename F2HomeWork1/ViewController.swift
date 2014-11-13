@@ -24,7 +24,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var noodleHead = Person(firstName: "Noodle", lastName: "Head")
         self.myPeeps = [scroogeMcDuck,darthVader,dickCheney,noodleHead]
         
-        //fatal error: unexpectedly found nil while unwrapping an Optional value
         self.tableView.dataSource = self
         self.tableView.delegate = self
                 

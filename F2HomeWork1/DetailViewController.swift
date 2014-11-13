@@ -12,6 +12,7 @@ class DetailViewController: UIViewController
 {
     @IBOutlet weak var firstNameLabel: UILabel!
     @IBOutlet weak var lastNameLabel: UILabel!
+    
     var selectedPerson = Person(firstName: "John", lastName: "Doe")
     
     override func viewDidLoad()

@@ -13,6 +13,11 @@ class Person
     var firstName: String
     var lastName: String
     
+    init() {
+        self.firstName = "John"
+        self.lastName = "Doe"
+    }
+    
     init (firstName: String, lastName: String)
     {
         self.firstName = firstName
