@@ -15,6 +15,18 @@
 		B8273EFE1A10258000DED967 /* F2HomeWork1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273EFD1A10258000DED967 /* F2HomeWork1Tests.swift */; };
 		B8273F081A10260100DED967 /* classPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273F071A10260100DED967 /* classPerson.swift */; };
 		B8273F101A1056A300DED967 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273F0F1A1056A300DED967 /* DetailViewController.swift */; };
+		B8D58E951A20746900BB1833 /* AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58E941A20746900BB1833 /* AutoLayoutTests.swift */; };
+		B8D58EA41A20747A00BB1833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58E971A20747A00BB1833 /* AppDelegate.swift */; };
+		B8D58EA51A20747A00BB1833 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D58E981A20747A00BB1833 /* LaunchScreen.xib */; };
+		B8D58EA61A20747A00BB1833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D58E9A1A20747A00BB1833 /* Main.storyboard */; };
+		B8D58EA71A20747A00BB1833 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58E9C1A20747A00BB1833 /* DetailViewController.swift */; };
+		B8D58EA81A20747A00BB1833 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D58E9D1A20747A00BB1833 /* Images.xcassets */; };
+		B8D58EA91A20747A00BB1833 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8D58E9E1A20747A00BB1833 /* Info.plist */; };
+		B8D58EAA1A20747A00BB1833 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58E9F1A20747A00BB1833 /* Person.swift */; };
+		B8D58EAB1A20747A00BB1833 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58EA01A20747A00BB1833 /* PersonTableViewCell.swift */; };
+		B8D58EAC1A20747A00BB1833 /* Roster.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8D58EA11A20747A00BB1833 /* Roster.plist */; };
+		B8D58EAD1A20747A00BB1833 /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8D58EA21A20747A00BB1833 /* Seattle.jpg */; };
+		B8D58EAE1A20747A00BB1833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58EA31A20747A00BB1833 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,18 @@
 		B8273EFD1A10258000DED967 /* F2HomeWork1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2HomeWork1Tests.swift; sourceTree = "<group>"; };
 		B8273F071A10260100DED967 /* classPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = classPerson.swift; path = ../classPerson.swift; sourceTree = "<group>"; };
 		B8273F0F1A1056A300DED967 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B8D58E941A20746900BB1833 /* AutoLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoLayoutTests.swift; path = "../../../Downloads/sea-c24-iOS-F2-master-2/Day 5-8 AutoLayout:Camera:plist:Archiver/AutoLayoutTests/AutoLayoutTests.swift"; sourceTree = "<group>"; };
+		B8D58E971A20747A00BB1833 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8D58E991A20747A00BB1833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B8D58E9B1A20747A00BB1833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8D58E9C1A20747A00BB1833 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B8D58E9D1A20747A00BB1833 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8D58E9E1A20747A00BB1833 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D58E9F1A20747A00BB1833 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B8D58EA01A20747A00BB1833 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		B8D58EA11A20747A00BB1833 /* Roster.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Roster.plist; sourceTree = "<group>"; };
+		B8D58EA21A20747A00BB1833 /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.jpg; sourceTree = "<group>"; };
+		B8D58EA31A20747A00BB1833 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,8 @@
 				B8273EE41A10258000DED967 /* F2HomeWork1 */,
 				B8273EFA1A10258000DED967 /* F2HomeWork1Tests */,
 				B8273EE31A10258000DED967 /* Products */,
+				B8D58E941A20746900BB1833 /* AutoLayoutTests.swift */,
+				B8D58E961A20747A00BB1833 /* AutoLayout */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +142,25 @@
 				B8273EFC1A10258000DED967 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8D58E961A20747A00BB1833 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B8D58E971A20747A00BB1833 /* AppDelegate.swift */,
+				B8D58E981A20747A00BB1833 /* LaunchScreen.xib */,
+				B8D58E9A1A20747A00BB1833 /* Main.storyboard */,
+				B8D58E9C1A20747A00BB1833 /* DetailViewController.swift */,
+				B8D58E9D1A20747A00BB1833 /* Images.xcassets */,
+				B8D58E9E1A20747A00BB1833 /* Info.plist */,
+				B8D58E9F1A20747A00BB1833 /* Person.swift */,
+				B8D58EA01A20747A00BB1833 /* PersonTableViewCell.swift */,
+				B8D58EA11A20747A00BB1833 /* Roster.plist */,
+				B8D58EA21A20747A00BB1833 /* Seattle.jpg */,
+				B8D58EA31A20747A00BB1833 /* ViewController.swift */,
+			);
+			name = AutoLayout;
+			path = "../../../Downloads/sea-c24-iOS-F2-master-2/Day 5-8 AutoLayout:Camera:plist:Archiver/AutoLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +243,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D58EA51A20747A00BB1833 /* LaunchScreen.xib in Resources */,
+				B8D58EA61A20747A00BB1833 /* Main.storyboard in Resources */,
 				B8273EED1A10258000DED967 /* Main.storyboard in Resources */,
+				B8D58EA81A20747A00BB1833 /* Images.xcassets in Resources */,
 				B8273EF21A10258000DED967 /* LaunchScreen.xib in Resources */,
+				B8D58EAD1A20747A00BB1833 /* Seattle.jpg in Resources */,
+				B8D58EAC1A20747A00BB1833 /* Roster.plist in Resources */,
 				B8273EEF1A10258000DED967 /* Images.xcassets in Resources */,
+				B8D58EA91A20747A00BB1833 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +269,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D58EAE1A20747A00BB1833 /* ViewController.swift in Sources */,
+				B8D58EA41A20747A00BB1833 /* AppDelegate.swift in Sources */,
 				B8273F081A10260100DED967 /* classPerson.swift in Sources */,
 				B8273EEA1A10258000DED967 /* ViewController.swift in Sources */,
+				B8D58EAB1A20747A00BB1833 /* PersonTableViewCell.swift in Sources */,
 				B8273EE81A10258000DED967 /* AppDelegate.swift in Sources */,
+				B8D58E951A20746900BB1833 /* AutoLayoutTests.swift in Sources */,
 				B8273F101A1056A300DED967 /* DetailViewController.swift in Sources */,
+				B8D58EAA1A20747A00BB1833 /* Person.swift in Sources */,
+				B8D58EA71A20747A00BB1833 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +315,22 @@
 				B8273EF11A10258000DED967 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B8D58E981A20747A00BB1833 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8D58E991A20747A00BB1833 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B8D58E9A1A20747A00BB1833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8D58E9B1A20747A00BB1833 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,6 +486,7 @@
 				B8273F031A10258000DED967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8273F041A10258000DED967 /* Build configuration list for PBXNativeTarget "F2HomeWork1Tests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +495,7 @@
 				B8273F061A10258000DED967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
