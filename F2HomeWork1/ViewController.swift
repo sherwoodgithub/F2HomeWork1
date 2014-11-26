@@ -11,36 +11,73 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
     @IBOutlet weak var tableView: UITableView!
-    var myPeeps = [Person]()
+    var aPerson = [Person]()
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.title = "Home"
+        if let peopleFromArchive = self.loadFromArchive() as [Person]?
+        {
+            self.aPerson = peopleFromArchive
+        }
+        else
+        {
+            self.loadFromPlist()
+            self.saveToArchive()
+        }
         
-        var scroogeMcDuck = Person(firstName: "Scrooge", lastName: "McDuck")
-        var darthVader = Person(firstName: "Darth", lastName: "Vader")
-        var dickCheney = Person(firstName: "Dick", lastName: "Cheney")
-        var noodleHead = Person(firstName: "Noodle", lastName: "Head")
-        self.myPeeps = [scroogeMcDuck,darthVader,dickCheney,noodleHead]
-        
+        self.loadFromPlist()
         self.tableView.dataSource = self
-        self.tableView.delegate = self
-                
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tableView.reloadData()
+        self.saveToArchive()
     }
 
+    func loadFromArchive() -> [Person]?
+    {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) [0] as String
+        
+        if let peopleFromArchive = NSKeyedUnarchiver.unarchiveObjectWithFile(documentsPath + "/archive1") as? [Person]
+        {
+            return peopleFromArchive
+        }
+        return nil
+    }
+    
+    func saveToArchive()
+    {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
+        NSKeyedArchiver.archiveRootObject(self.aPerson, toFile: documentsPath + "/archive1")
+    }
+    
+    func loadFromPlist()
+    {
+        let url = NSBundle.mainBundle().pathForResource("Names", ofType: "plist")
+        let array = NSArray(contentsOfFile: url!)
+        for object in array!
+        {
+            if let personDictionary = object as? NSDictionary
+            {
+                let firstName = personDictionary["First Name"] as String
+                var thePerson = Person(firstName: firstName)
+                self.aPerson.append(thePerson)
+            }
+        }
+    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return self.myPeeps.count
+        return self.aPerson.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCellWithIdentifier("CELL", forIndexPath: indexPath) as UITableViewCell
-        
-        var personToDisplay = self.myPeeps[indexPath.row]
-        cell.textLabel.text = personToDisplay.returnsName()
+        let cell = tableView.dequeueReusableCellWithIdentifier("CELL", forIndexPath: indexPath) as TableViewCell
+        var personToDisplay = self.aPerson[indexPath.row]
+        cell.name.text = personToDisplay.firstName
         
         return cell
     }
@@ -50,9 +87,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if segue.identifier == "SHOW_DETAIL"
         {
             let detailViewController = segue.destinationViewController as DetailViewController
-            let selectedIndexPath = self.tableView.indexPathForSelectedRow()
-            var personToPass = self.myPeeps[selectedIndexPath!.row]
-            detailViewController.selectedPerson = personToPass
+            var selectedIndexPath = self.tableView.indexPathForSelectedRow()
+            detailViewController.selection = self.aPerson[selectedIndexPath!.row]
+
         }
     }
 }

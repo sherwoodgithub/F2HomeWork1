@@ -7,28 +7,40 @@
 //
 
 import Foundation
+import UIKit
 
-class Person
+
+class Person: NSObject, NSCoding
 {
     var firstName: String
     var lastName: String
+    var image: UIImage?
     
-    init() {
-        self.firstName = "John"
-        self.lastName = "Doe"
-    }
-    
-    init (firstName: String, lastName: String)
+    init(firstName: String)
     {
         self.firstName = firstName
-        self.lastName = lastName
+        self.lastName = "Jameson"
     }
     
-    //returns full name, first+last
-    func returnsName()->String
+    required init(coder decoder: NSCoder)
     {
-        //return self.firstName+self.lastName
-        return "\(self.firstName) \(self.lastName)"
-        
+        self.firstName = decoder.decodeObjectForKey("firstName") as String
+        self.lastName = decoder.decodeObjectForKey("lastName") as String
+        if let decodedImage = decoder.decodeObjectForKey("image") as? UIImage
+        {
+            self.image = decodedImage
+        }
+    }
+    
+    func encodeWithCoder(coder: NSCoder)
+    {
+        coder.encodeObject(self.firstName, forKey: "firstName")
+        coder.encodeObject(self.lastName, forKey: "lastName")
+        if self.image != nil
+        {
+            coder.encodeObject(self.image!, forKey: "image")
+        } else {
+            coder.encodeObject(nil, forKey: "image")
+        }
     }
 }

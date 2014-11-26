@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B800F7C61A25716100B55FF3 /* Obama-Beer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B800F7C51A25716100B55FF3 /* Obama-Beer.jpg */; };
+		B800F7C81A25761500B55FF3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B800F7C71A25761500B55FF3 /* TableViewCell.swift */; };
+		B800F7CA1A257F3800B55FF3 /* Names.plist in Resources */ = {isa = PBXBuildFile; fileRef = B800F7C91A257F3800B55FF3 /* Names.plist */; };
 		B8273EE81A10258000DED967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273EE71A10258000DED967 /* AppDelegate.swift */; };
 		B8273EEA1A10258000DED967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273EE91A10258000DED967 /* ViewController.swift */; };
 		B8273EED1A10258000DED967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8273EEB1A10258000DED967 /* Main.storyboard */; };
@@ -15,31 +18,6 @@
 		B8273EFE1A10258000DED967 /* F2HomeWork1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273EFD1A10258000DED967 /* F2HomeWork1Tests.swift */; };
 		B8273F081A10260100DED967 /* classPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273F071A10260100DED967 /* classPerson.swift */; };
 		B8273F101A1056A300DED967 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273F0F1A1056A300DED967 /* DetailViewController.swift */; };
-		B84D4D851A2312970019C7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D781A2312970019C7CF /* AppDelegate.swift */; };
-		B84D4D861A2312970019C7CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D791A2312970019C7CF /* LaunchScreen.xib */; };
-		B84D4D871A2312970019C7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D7B1A2312970019C7CF /* Main.storyboard */; };
-		B84D4D881A2312970019C7CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D7D1A2312970019C7CF /* DetailViewController.swift */; };
-		B84D4D891A2312970019C7CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D7E1A2312970019C7CF /* Images.xcassets */; };
-		B84D4D8A1A2312970019C7CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D7F1A2312970019C7CF /* Info.plist */; };
-		B84D4D8B1A2312970019C7CF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D801A2312970019C7CF /* Person.swift */; };
-		B84D4D8C1A2312970019C7CF /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D811A2312970019C7CF /* PersonTableViewCell.swift */; };
-		B84D4D8D1A2312970019C7CF /* Roster.plist in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D821A2312970019C7CF /* Roster.plist */; };
-		B84D4D8E1A2312970019C7CF /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D831A2312970019C7CF /* Seattle.jpg */; };
-		B84D4D8F1A2312970019C7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D841A2312970019C7CF /* ViewController.swift */; };
-		B84D4D931A2312A30019C7CF /* AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D911A2312A30019C7CF /* AutoLayoutTests.swift */; };
-		B84D4D941A2312A30019C7CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D921A2312A30019C7CF /* Info.plist */; };
-		B84D4DA31A2312C70019C7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D961A2312C70019C7CF /* AppDelegate.swift */; };
-		B84D4DA41A2312C70019C7CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D971A2312C70019C7CF /* LaunchScreen.xib */; };
-		B84D4DA51A2312C70019C7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D991A2312C70019C7CF /* Main.storyboard */; };
-		B84D4DA61A2312C70019C7CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D9B1A2312C70019C7CF /* DetailViewController.swift */; };
-		B84D4DA71A2312C70019C7CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D9C1A2312C70019C7CF /* Images.xcassets */; };
-		B84D4DA81A2312C70019C7CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B84D4D9D1A2312C70019C7CF /* Info.plist */; };
-		B84D4DA91A2312C70019C7CF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D9E1A2312C70019C7CF /* Person.swift */; };
-		B84D4DAA1A2312C70019C7CF /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4D9F1A2312C70019C7CF /* PersonTableViewCell.swift */; };
-		B84D4DAB1A2312C70019C7CF /* Roster.plist in Resources */ = {isa = PBXBuildFile; fileRef = B84D4DA01A2312C70019C7CF /* Roster.plist */; };
-		B84D4DAC1A2312C70019C7CF /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B84D4DA11A2312C70019C7CF /* Seattle.jpg */; };
-		B84D4DAD1A2312C70019C7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D4DA21A2312C70019C7CF /* ViewController.swift */; };
-		B8D58E951A20746900BB1833 /* AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D58E941A20746900BB1833 /* AutoLayoutTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,43 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B8273EE21A10258000DED967 /* F2HomeWork1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F2HomeWork1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B800F7C51A25716100B55FF3 /* Obama-Beer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Obama-Beer.jpg"; path = "../../../../Downloads/Obama-Beer.jpg"; sourceTree = "<group>"; };
+		B800F7C71A25761500B55FF3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B800F7C91A257F3800B55FF3 /* Names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Names.plist; sourceTree = "<group>"; };
+		B8273EE21A10258000DED967 /* F2HomeWork1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = F2HomeWork1.app; path = "/Users/stephensherwood/Desktop/codeFellowsClassDemo/F2HomeWork1/build/Debug-iphoneos/F2HomeWork1.app"; sourceTree = "<absolute>"; };
 		B8273EE61A10258000DED967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8273EE71A10258000DED967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8273EE91A10258000DED967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8273EEC1A10258000DED967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8273EEE1A10258000DED967 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8273EF11A10258000DED967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B8273EF71A10258000DED967 /* F2HomeWork1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F2HomeWork1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8273EF71A10258000DED967 /* F2HomeWork1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = F2HomeWork1Tests.xctest; path = "/Users/stephensherwood/Desktop/codeFellowsClassDemo/F2HomeWork1/build/Debug-iphoneos/F2HomeWork1Tests.xctest"; sourceTree = "<absolute>"; };
 		B8273EFC1A10258000DED967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8273EFD1A10258000DED967 /* F2HomeWork1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2HomeWork1Tests.swift; sourceTree = "<group>"; };
 		B8273F071A10260100DED967 /* classPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = classPerson.swift; path = ../classPerson.swift; sourceTree = "<group>"; };
 		B8273F0F1A1056A300DED967 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B84D4D781A2312970019C7CF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B84D4D7A1A2312970019C7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B84D4D7C1A2312970019C7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B84D4D7D1A2312970019C7CF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B84D4D7E1A2312970019C7CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B84D4D7F1A2312970019C7CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B84D4D801A2312970019C7CF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		B84D4D811A2312970019C7CF /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
-		B84D4D821A2312970019C7CF /* Roster.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Roster.plist; sourceTree = "<group>"; };
-		B84D4D831A2312970019C7CF /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.jpg; sourceTree = "<group>"; };
-		B84D4D841A2312970019C7CF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B84D4D911A2312A30019C7CF /* AutoLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutTests.swift; sourceTree = "<group>"; };
-		B84D4D921A2312A30019C7CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B84D4D961A2312C70019C7CF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B84D4D981A2312C70019C7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B84D4D9A1A2312C70019C7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B84D4D9B1A2312C70019C7CF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B84D4D9C1A2312C70019C7CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B84D4D9D1A2312C70019C7CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B84D4D9E1A2312C70019C7CF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		B84D4D9F1A2312C70019C7CF /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
-		B84D4DA01A2312C70019C7CF /* Roster.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Roster.plist; sourceTree = "<group>"; };
-		B84D4DA11A2312C70019C7CF /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.jpg; sourceTree = "<group>"; };
-		B84D4DA21A2312C70019C7CF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8D58E941A20746900BB1833 /* AutoLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoLayoutTests.swift; path = "../../../Downloads/sea-c24-iOS-F2-master-2/Day 5-8 AutoLayout:Camera:plist:Archiver/AutoLayoutTests/AutoLayoutTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,19 +71,7 @@
 			children = (
 				B8273EE41A10258000DED967 /* F2HomeWork1 */,
 				B8273EFA1A10258000DED967 /* F2HomeWork1Tests */,
-				B8273EE31A10258000DED967 /* Products */,
-				B8D58E941A20746900BB1833 /* AutoLayoutTests.swift */,
-				B84D4D771A2312970019C7CF /* AutoLayout */,
 			);
-			sourceTree = "<group>";
-		};
-		B8273EE31A10258000DED967 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B8273EE21A10258000DED967 /* F2HomeWork1.app */,
-				B8273EF71A10258000DED967 /* F2HomeWork1Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B8273EE41A10258000DED967 /* F2HomeWork1 */ = {
@@ -138,6 +82,8 @@
 				B8273EE91A10258000DED967 /* ViewController.swift */,
 				B8273EEB1A10258000DED967 /* Main.storyboard */,
 				B8273F0F1A1056A300DED967 /* DetailViewController.swift */,
+				B800F7C71A25761500B55FF3 /* TableViewCell.swift */,
+				B800F7C51A25716100B55FF3 /* Obama-Beer.jpg */,
 				B8273EEE1A10258000DED967 /* Images.xcassets */,
 				B8273EF01A10258000DED967 /* LaunchScreen.xib */,
 				B8273EE51A10258000DED967 /* Supporting Files */,
@@ -149,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B8273EE61A10258000DED967 /* Info.plist */,
+				B800F7C91A257F3800B55FF3 /* Names.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,56 +115,6 @@
 				B8273EFC1A10258000DED967 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B84D4D771A2312970019C7CF /* AutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B84D4D901A2312A30019C7CF /* AutoLayoutTests */,
-				B84D4D781A2312970019C7CF /* AppDelegate.swift */,
-				B84D4D791A2312970019C7CF /* LaunchScreen.xib */,
-				B84D4D7B1A2312970019C7CF /* Main.storyboard */,
-				B84D4D7D1A2312970019C7CF /* DetailViewController.swift */,
-				B84D4D7E1A2312970019C7CF /* Images.xcassets */,
-				B84D4D7F1A2312970019C7CF /* Info.plist */,
-				B84D4D801A2312970019C7CF /* Person.swift */,
-				B84D4D811A2312970019C7CF /* PersonTableViewCell.swift */,
-				B84D4D821A2312970019C7CF /* Roster.plist */,
-				B84D4D831A2312970019C7CF /* Seattle.jpg */,
-				B84D4D841A2312970019C7CF /* ViewController.swift */,
-				B84D4D951A2312C70019C7CF /* AutoLayout */,
-			);
-			name = AutoLayout;
-			path = "../../../Downloads/sea-c24-iOS-F2-master-2/Day 5-8 AutoLayout:Camera:plist:Archiver/AutoLayout";
-			sourceTree = "<group>";
-		};
-		B84D4D901A2312A30019C7CF /* AutoLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				B84D4D911A2312A30019C7CF /* AutoLayoutTests.swift */,
-				B84D4D921A2312A30019C7CF /* Info.plist */,
-			);
-			name = AutoLayoutTests;
-			path = ../AutoLayoutTests;
-			sourceTree = "<group>";
-		};
-		B84D4D951A2312C70019C7CF /* AutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B84D4D961A2312C70019C7CF /* AppDelegate.swift */,
-				B84D4D971A2312C70019C7CF /* LaunchScreen.xib */,
-				B84D4D991A2312C70019C7CF /* Main.storyboard */,
-				B84D4D9B1A2312C70019C7CF /* DetailViewController.swift */,
-				B84D4D9C1A2312C70019C7CF /* Images.xcassets */,
-				B84D4D9D1A2312C70019C7CF /* Info.plist */,
-				B84D4D9E1A2312C70019C7CF /* Person.swift */,
-				B84D4D9F1A2312C70019C7CF /* PersonTableViewCell.swift */,
-				B84D4DA01A2312C70019C7CF /* Roster.plist */,
-				B84D4DA11A2312C70019C7CF /* Seattle.jpg */,
-				B84D4DA21A2312C70019C7CF /* ViewController.swift */,
-			);
-			name = AutoLayout;
-			path = "../../../sea-c24-iOS-F2-master/Day 5-7 AutoLayout:Camera:plist/AutoLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +182,7 @@
 				Base,
 			);
 			mainGroup = B8273ED91A10258000DED967;
-			productRefGroup = B8273EE31A10258000DED967 /* Products */;
+			productRefGroup = B8273ED91A10258000DED967;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -300,22 +197,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84D4D861A2312970019C7CF /* LaunchScreen.xib in Resources */,
-				B84D4D871A2312970019C7CF /* Main.storyboard in Resources */,
+				B800F7CA1A257F3800B55FF3 /* Names.plist in Resources */,
+				B800F7C61A25716100B55FF3 /* Obama-Beer.jpg in Resources */,
 				B8273EED1A10258000DED967 /* Main.storyboard in Resources */,
-				B84D4DA71A2312C70019C7CF /* Images.xcassets in Resources */,
-				B84D4DA51A2312C70019C7CF /* Main.storyboard in Resources */,
-				B84D4D891A2312970019C7CF /* Images.xcassets in Resources */,
-				B84D4DA81A2312C70019C7CF /* Info.plist in Resources */,
 				B8273EF21A10258000DED967 /* LaunchScreen.xib in Resources */,
-				B84D4D8E1A2312970019C7CF /* Seattle.jpg in Resources */,
-				B84D4D8D1A2312970019C7CF /* Roster.plist in Resources */,
 				B8273EEF1A10258000DED967 /* Images.xcassets in Resources */,
-				B84D4D941A2312A30019C7CF /* Info.plist in Resources */,
-				B84D4DAC1A2312C70019C7CF /* Seattle.jpg in Resources */,
-				B84D4DA41A2312C70019C7CF /* LaunchScreen.xib in Resources */,
-				B84D4DAB1A2312C70019C7CF /* Roster.plist in Resources */,
-				B84D4D8A1A2312970019C7CF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,22 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84D4DA61A2312C70019C7CF /* DetailViewController.swift in Sources */,
-				B84D4DA31A2312C70019C7CF /* AppDelegate.swift in Sources */,
-				B84D4D8F1A2312970019C7CF /* ViewController.swift in Sources */,
-				B84D4DAA1A2312C70019C7CF /* PersonTableViewCell.swift in Sources */,
-				B84D4D851A2312970019C7CF /* AppDelegate.swift in Sources */,
-				B84D4DA91A2312C70019C7CF /* Person.swift in Sources */,
+				B800F7C81A25761500B55FF3 /* TableViewCell.swift in Sources */,
 				B8273F081A10260100DED967 /* classPerson.swift in Sources */,
 				B8273EEA1A10258000DED967 /* ViewController.swift in Sources */,
-				B84D4D931A2312A30019C7CF /* AutoLayoutTests.swift in Sources */,
-				B84D4D8C1A2312970019C7CF /* PersonTableViewCell.swift in Sources */,
 				B8273EE81A10258000DED967 /* AppDelegate.swift in Sources */,
-				B8D58E951A20746900BB1833 /* AutoLayoutTests.swift in Sources */,
 				B8273F101A1056A300DED967 /* DetailViewController.swift in Sources */,
-				B84D4D8B1A2312970019C7CF /* Person.swift in Sources */,
-				B84D4DAD1A2312C70019C7CF /* ViewController.swift in Sources */,
-				B84D4D881A2312970019C7CF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,38 +260,6 @@
 				B8273EF11A10258000DED967 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		B84D4D791A2312970019C7CF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B84D4D7A1A2312970019C7CF /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		B84D4D7B1A2312970019C7CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B84D4D7C1A2312970019C7CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B84D4D971A2312C70019C7CF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B84D4D981A2312C70019C7CF /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		B84D4D991A2312C70019C7CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B84D4D9A1A2312C70019C7CF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
