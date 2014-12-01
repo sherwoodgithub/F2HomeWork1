@@ -17,7 +17,7 @@
 		B8273EFE1A10258000DED967 /* F2HomeWork1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273EFD1A10258000DED967 /* F2HomeWork1Tests.swift */; };
 		B8273F081A10260100DED967 /* classPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273F071A10260100DED967 /* classPerson.swift */; };
 		B8273F101A1056A300DED967 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8273F0F1A1056A300DED967 /* DetailViewController.swift */; };
-		B8B888561A2A00BA0093A0EF /* dino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B888551A2A00BA0093A0EF /* dino.jpg */; };
+		B8DB11DF1A2BF5E8007CFF90 /* dino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8DB11DE1A2BF5E8007CFF90 /* dino.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		B8273F0F1A1056A300DED967 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B8B888531A29F6E60093A0EF /* F2HomeWork1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F2HomeWork1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B888541A29F6E60093A0EF /* F2HomeWork1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F2HomeWork1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8B888551A2A00BA0093A0EF /* dino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dino.jpg; path = ../../dino.jpg; sourceTree = "<group>"; };
+		B8DB11DE1A2BF5E8007CFF90 /* dino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dino.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 				B8273EE71A10258000DED967 /* AppDelegate.swift */,
 				B8273EE91A10258000DED967 /* ViewController.swift */,
 				B8273EEB1A10258000DED967 /* Main.storyboard */,
-				B8B888551A2A00BA0093A0EF /* dino.jpg */,
+				B8DB11DE1A2BF5E8007CFF90 /* dino.jpg */,
 				B8273F0F1A1056A300DED967 /* DetailViewController.swift */,
 				B800F7C71A25761500B55FF3 /* TableViewCell.swift */,
 				B8273EEE1A10258000DED967 /* Images.xcassets */,
@@ -200,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B800F7CA1A257F3800B55FF3 /* Names.plist in Resources */,
-				B8B888561A2A00BA0093A0EF /* dino.jpg in Resources */,
+				B8DB11DF1A2BF5E8007CFF90 /* dino.jpg in Resources */,
 				B8273EED1A10258000DED967 /* Main.storyboard in Resources */,
 				B8273EF21A10258000DED967 /* LaunchScreen.xib in Resources */,
 				B8273EEF1A10258000DED967 /* Images.xcassets in Resources */,
