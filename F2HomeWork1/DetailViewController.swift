@@ -38,7 +38,6 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     override func viewWillDisappear(animated: Bool)
     {
         super.viewWillDisappear(animated)
-        //Plop a ? here: self.selectedPerson?...
         self.selection?.firstName = self.firstNameTextField.text
     }
     

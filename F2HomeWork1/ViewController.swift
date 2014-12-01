@@ -91,14 +91,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             detailViewController.selection = self.aPerson[selectedIndexPath!.row]
         }
     }
-    
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if segue.identifier == "SHOW_DETAIL" {
-//            let detailViewController = segue.destinationViewController as DetailViewController
-//            let selectedIndexPath = self.tableView.indexPathForSelectedRow()
-//            var personToPass = self.aPerson[selectedIndexPath!.row]
-//            detailViewController.selection = personToPass
-//        }
-//    }
+
 }
 
