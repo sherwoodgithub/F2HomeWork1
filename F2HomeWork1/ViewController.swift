@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             self.loadFromPlist()
             self.saveToArchive()
         }
-        
+    
         self.loadFromPlist()
         self.tableView.dataSource = self
     }
@@ -35,7 +35,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.reloadData()
         self.saveToArchive()
     }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return self.aPerson.count
+    }
 
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCellWithIdentifier("CELL", forIndexPath: indexPath) as TableViewCell
+        var personToDisplay = self.aPerson[indexPath.row]
+        cell.textLabel.text = personToDisplay.firstName
+        
+        return cell
+    }
+    
     func loadFromArchive() -> [Person]?
     {
         let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) [0] as String
@@ -52,7 +66,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
         NSKeyedArchiver.archiveRootObject(self.aPerson, toFile: documentsPath + "/archive1")
     }
-    
+
     func loadFromPlist()
     {
         let url = NSBundle.mainBundle().pathForResource("Names", ofType: "plist")
@@ -68,20 +82,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-    {
-        return self.aPerson.count
-    }
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
-    {
-        let cell = tableView.dequeueReusableCellWithIdentifier("CELL", forIndexPath: indexPath) as TableViewCell
-        var personToDisplay = self.aPerson[indexPath.row]
-        cell.name.text = personToDisplay.firstName
-        
-        return cell
-    }
-    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
         if segue.identifier == "SHOW_DETAIL"
@@ -89,8 +89,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let detailViewController = segue.destinationViewController as DetailViewController
             var selectedIndexPath = self.tableView.indexPathForSelectedRow()
             detailViewController.selection = self.aPerson[selectedIndexPath!.row]
-
         }
     }
+    
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if segue.identifier == "SHOW_DETAIL" {
+//            let detailViewController = segue.destinationViewController as DetailViewController
+//            let selectedIndexPath = self.tableView.indexPathForSelectedRow()
+//            var personToPass = self.aPerson[selectedIndexPath!.row]
+//            detailViewController.selection = personToPass
+//        }
+//    }
 }
 

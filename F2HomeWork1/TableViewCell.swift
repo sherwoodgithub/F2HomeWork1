@@ -14,10 +14,10 @@ class TableViewCell: UITableViewCell
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var subName: UILabel!
     
-    override func awakeFromNib()
+    /*override func awakeFromNib()
     {
-        super.awakeFromNib()
-    }
+       // super.awakeFromNib()
+    }*/
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
