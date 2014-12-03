@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
@@ -16,6 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        title = "\"Roster\""
         if let peopleFromArchive = self.loadFromArchive() as [Person]?
         {
             self.aPerson = peopleFromArchive
@@ -26,8 +28,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             self.saveToArchive()
         }
     
-        self.loadFromPlist()
+        //self.loadFromPlist()
         self.tableView.dataSource = self
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -45,28 +48,29 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
         let cell = tableView.dequeueReusableCellWithIdentifier("CELL", forIndexPath: indexPath) as TableViewCell
         var personToDisplay = self.aPerson[indexPath.row]
-        cell.textLabel.text = personToDisplay.firstName
+        cell.name.text = personToDisplay.firstName
+        cell.personImageView.image = personToDisplay.image
         
         return cell
+    }
+    
+    func saveToArchive()
+    {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
+        NSKeyedArchiver.archiveRootObject(self.aPerson, toFile: documentsPath + "/archive2")
     }
     
     func loadFromArchive() -> [Person]?
     {
         let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) [0] as String
         
-        if let peopleFromArchive = NSKeyedUnarchiver.unarchiveObjectWithFile(documentsPath + "/archive1") as? [Person]
+        if let peopleFromArchive = NSKeyedUnarchiver.unarchiveObjectWithFile(documentsPath + "/archive2") as? [Person]
         {
             return peopleFromArchive
         }
         return nil
     }
     
-    func saveToArchive()
-    {
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
-        NSKeyedArchiver.archiveRootObject(self.aPerson, toFile: documentsPath + "/archive1")
-    }
-
     func loadFromPlist()
     {
         let url = NSBundle.mainBundle().pathForResource("Names", ofType: "plist")

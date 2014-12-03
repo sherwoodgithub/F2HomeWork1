@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import MobileCoreServices
 
 class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate
 {
     @IBOutlet weak var firstNameTextField : UITextField!
-    //@IBOutlet weak var lastNameTextField : UITextField!
+    @IBOutlet weak var lastNameTextField : UITextField!
     @IBOutlet weak var imageView : UIImageView!
     @IBAction func cameraButtonPress(sender: AnyObject)
     {
@@ -30,9 +31,9 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        //self.title = self.selectedPerson.returnsName()
-        //self.firstNameTextField.text = self.selectedPerson.firstName
-        //self.lastNameTextField.text = self.selectedPerson.lastName
+//        self.title = self.selection.returnsName()
+        self.firstNameTextField.text = self.selection!.firstName
+        self.lastNameTextField.text = self.selection!.lastName
     }
     
     override func viewWillDisappear(animated: Bool)
@@ -57,5 +58,7 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         let image = info[UIImagePickerControllerEditedImage] as UIImage
         self.imageView.image = image
         imagePickerController.dismissViewControllerAnimated(true, completion: nil)
+        self.selection?.image = image
     }
+    
 }
