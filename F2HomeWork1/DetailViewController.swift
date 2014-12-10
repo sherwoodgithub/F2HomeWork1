@@ -9,7 +9,7 @@
 import UIKit
 import MobileCoreServices
 
-class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate
+class DetailViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
 {
     @IBOutlet weak var firstNameTextField : UITextField!
     @IBOutlet weak var lastNameTextField : UITextField!
